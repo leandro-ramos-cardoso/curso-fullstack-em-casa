@@ -40,7 +40,11 @@ Este repositório contém os arquivos feitos no curso FullStack juntamente com a
 <details>
   <summary>📌 Exercício 02</summary>
   Descrição do exercício 02.
+  ![Texto alternativo](aula01/img/profkelson-bg-black.png)
 </details>
+
+![Texto alternativo](aula01/img/profkelson-bg-black.png)
+
 
 ---
 
