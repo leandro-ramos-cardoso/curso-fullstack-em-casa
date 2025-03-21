@@ -13,6 +13,7 @@ Este repositório contém os arquivos feitos no curso FullStack juntamente com a
 | [Exercício 6](aula01/6_tabelas.html) | Tabelas |
 | [Exercício 7](aula01/7_elementos_semanticos.html) | Elementos Semânticos |
 | [Exercício 8](aula01/8_desafio_cv.html) | Desafio Curriculum Vitae |
+| [Exercício 9](aula01/9_desafio_cv2.html) | Desafio Curriculum Vitae Versão 2|
 
 ---
 
@@ -27,33 +28,82 @@ Este repositório contém os arquivos feitos no curso FullStack juntamente com a
 
 ---
 
+## 🖼️ Capturas de Tela
+
+> Abaixo estão os prints representando o resultado final de cada arquivo.html
+
+
+<details>
+  <summary>📌 Exercício 01</summary>
+
+  ![Texto alternativo](aula01/img/exercicio1.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 02</summary>
+  
+  ![Texto alternativo](aula01/img/exercicio2.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 03</summary>
+
+  ![Texto alternativo](aula01/img/exercicio3.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 04</summary>
+  
+  ![Texto alternativo](aula01/img/exercicio4.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 05</summary>
+
+  ![Texto alternativo](aula01/img/exercicio5.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 06</summary>
+  
+  ![Texto alternativo](aula01/img/exercicio6.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 07</summary>
+
+  ![Texto alternativo](aula01/img/exercicio7.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 08</summary>
+  
+  ![Texto alternativo](aula01/img/exercicio8.png)
+  
+</details>
+
+<details>
+  <summary>📌 Exercício 09</summary>
+  
+  ![Texto alternativo](aula01/img/exercicio9.png)
+  
+</details>
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ---
 
-## 🖼️ Capturas de Tela
-
-> Abaixo estão os prints representando o resultado final de cada arquivo.html
-
-<details>
-  <summary>📌 Exercício 02</summary>
-  Descrição do exercício 02.
-  ![Texto alternativo](aula01/img/profkelson-bg-black.png)
-</details>
-
-![Texto alternativo](aula01/img/profkelson-bg-black.png)
-
-
----
-
-## 📚 Links Úteis
-- [Documentação HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Documentação CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Documentação BootStrap](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
----
-
 ## 👥 Autor
 - **Leandro Ramos Cardoso** - [GitHub](https://github.com/seuusuario)
+
