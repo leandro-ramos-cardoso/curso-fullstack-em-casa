@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(/aula01/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    --flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    --padding: 10px;
+    align-items: center;
+    width: 50%;
+    --background-color: #a15656;
+    border-radius: 20px;
+    border: 10px solid #7ed957;
+}
+
+.coluna1 .coluna2 {
+    flex: 1; /* Faz com que cada coluna ocupe metade do espaço */
+    padding: 10px;
+    --border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.coluna1{
+    --border-radius: 20px;
+    padding: 30px;
+    background-color: black;
+    color: #fff;
+}
+
+.coluna2{
+    padding: 60px;
+    background-color: #ffff;
+}
+
+.titulos{
+    color: #7ed957;
+}
+
+.titulos_negrito{
+    font-weight: bold;
+}
+
+header img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 50%;
+    border: 5px solid #7ed957;
+}
