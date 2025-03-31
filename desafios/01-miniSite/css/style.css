@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.linha-horizontal{
+    margin: 0 auto;
+    width: 77%;
+    --color: #EEE;
+    border-top: 0.5px solid #EEE;
+    margin-top: 20px;
+    --margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-weight: 400;
+    color: #1c1c1c;
+    transition: 0.5s;
+}
+
+nav ul{
+    background-color: #f9f7f7;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+
+}
+
+#apresentacao h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+#apresentacao .name{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container-apresentacao{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    width: 70%;
+    height: 350px;
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 6px;
+}
+
+.photo-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+}
+
+.container-apresentacao img {
+    border: 5px solid rgb(217, 244, 150);
+    --width: 30%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+
+.coluna{
+    display: block;
+}
+
+
+
+footer{
+    background-color: darkgray;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-2{
+    font-size: 15px;
+}
