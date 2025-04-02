@@ -42,7 +42,8 @@ a{
 a:hover{
     font-weight: 400;
     color: #1c1c1c;
-    transition: 0.5s;
+    transition: 0.3s;
+    --transition: 0.3s ease-in-out;
 }
 
 nav {
@@ -126,6 +127,7 @@ img{
 }
 
 .title-projetos{
+    font-size: 25px;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -133,6 +135,7 @@ img{
 }
 
 .title-contato{
+    font-size: 25px;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -159,12 +162,20 @@ img{
     width: 70%;
 }
 
+form input, form textarea {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 8px; /* Melhor experiência de digitação */
+    margin-bottom: 8px; /* Menos espaço entre os campos */
+    border-radius: 5px; /* Bordas arredondadas para estética */
+    border: 1px solid #ccc; /* Aparência mais leve */
+}
+
 .text-contact{
     margin-bottom: 50px;
 }
 
 footer{
-    background-color: darkgray;
+    background-color: #a9a9a9;
     padding: 20px;
     margin-top: 50px;
     text-align: center;
@@ -172,6 +183,7 @@ footer{
 
 .footer-2{
     font-size: 15px;
+    font-weight: 400;
 }
 
 .heart{
@@ -209,12 +221,28 @@ footer{
 }
 
 .btn-enviar{
-    background-color: greenyellow;
+    --background-color: greenyellow;
+    background-color: #777777;
+    color: #fff;
     border: none;
     padding: 10px 30px;
     border-radius: 6px;
+    cursor: pointer;
+    width: 105%;
 }
 
 .btn-enviar:hover{
     background-color: rgb(147, 218, 41);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao redor */
+    transition: 0.3s ease-in-out; /* Suaviza o efeito */
 }
+
+.title-main{
+    font-size: 60px;
+}
+
+span{
+    font-size: 48px;
+    font-weight: 300;
+}
+
