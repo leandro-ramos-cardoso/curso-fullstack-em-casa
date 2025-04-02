@@ -9,7 +9,16 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body{
+    --background-image: url('../img/bg.jpg');
+    --background-repeat: no-repeat;
+    --background-size: cover;
+    --position: relative;
     font-size: 21px;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -73,6 +82,7 @@ nav ul{
 .container-apresentacao{
     display: flex;
     flex-direction: row;
+   --justify-content: space-between;
     margin: 0 auto;
     background-color: #EEEEEE;
     width: 70%;
@@ -80,6 +90,13 @@ nav ul{
     margin-top: 30px;
     padding: 50px;
     border-radius: 6px;
+    gap: 40px;
+}
+
+.container-apresentacao .redes-sociais{
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 
 .photo-name{
@@ -87,10 +104,12 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: -100;
+
 }
 
 img{
-    width: 80%;
+    width: 100%;
 }
 
 .container-apresentacao img {
@@ -129,6 +148,19 @@ img{
     --background-color: antiquewhite;
     width: 80%;
 
+}
+
+#contato{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.text-contact{
+    margin-bottom: 50px;
 }
 
 footer{
@@ -176,4 +208,13 @@ footer{
     margin-top: 10px;
 }
 
+.btn-enviar{
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
 
+.btn-enviar:hover{
+    background-color: rgb(147, 218, 41);
+}
