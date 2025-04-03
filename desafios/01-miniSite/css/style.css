@@ -12,10 +12,11 @@
 html, body {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body{
-    --background-image: url('../img/bg.jpg');
+    --background-image: url('../img/bg2.png');
     --background-repeat: no-repeat;
     --background-size: cover;
     --position: relative;
@@ -36,7 +37,8 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    --color: black;
+    color: #D8D8D8;
 }
 
 a:hover{
@@ -51,6 +53,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
+    background-color: #0a152f;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,7 +66,6 @@ nav ul{
     --padding: 20px;
     font-size: 18px;
     --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-
 }
 
 #apresentacao h2{
@@ -91,7 +93,7 @@ nav ul{
     margin-top: 30px;
     padding: 50px;
     border-radius: 6px;
-    gap: 40px;
+    gap: 80px;
 }
 
 .container-apresentacao .redes-sociais{
@@ -101,12 +103,16 @@ nav ul{
 }
 
 .photo-name{
+    --width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: -100;
+}
 
+.photo-name img{
+    width: 130%;
 }
 
 img{
@@ -126,7 +132,7 @@ img{
     display: block;
 }
 
-.title-projetos{
+#title-projetos{
     font-size: 25px;
     text-align: center;
     margin-top: 80px;
@@ -134,7 +140,7 @@ img{
     --background-color: #1c1c1c;
 }
 
-.title-contato{
+#title-contato{
     font-size: 25px;
     text-align: center;
     margin-top: 80px;
@@ -202,6 +208,11 @@ footer{
     overflow: hidden;
     text-align: center;
 }
+
+.card:hover{
+    --border: 5px solid red;
+}
+
 .card img {
     width: 100%;
     height: 200px;
@@ -241,7 +252,7 @@ footer{
     font-size: 60px;
 }
 
-span{
+.title-main2{
     font-size: 48px;
     font-weight: 300;
 }
