@@ -39,13 +39,16 @@ a{
     text-decoration: none;
     --color: black;
     color: #D8D8D8;
+    color: #ffff;
+    font-weight: 300;
 }
 
 a:hover{
     font-weight: 400;
-    color: #1c1c1c;
-    transition: 0.3s;
-    --transition: 0.3s ease-in-out;
+    --color: #1c1c1c;
+    color: greenyellow;
+    --transition: 0.2s;
+    transition: 0.3s ease-in-out;
 }
 
 nav {
@@ -53,9 +56,19 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    background-color: #0a152f;
+    --background-color: #0a152f;
+    --background-color: #1c1c1c;
+    background-color: #131212;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --background-image: url(../img/bg2.png);
+
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; /* Tenta misturar a imagem e o preto */
+    opacity: 0.9; /* Ajuste se necessário */
 }
+
 
 nav ul{
     --background-color: #f9f7f7;
