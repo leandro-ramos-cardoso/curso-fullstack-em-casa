@@ -26,6 +26,11 @@ body{
     font-style: normal;
 }
 
+.logo:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
 .linha-horizontal{
     margin: 0 auto;
     width: 77%;

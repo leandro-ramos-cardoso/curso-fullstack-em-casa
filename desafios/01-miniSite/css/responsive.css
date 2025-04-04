@@ -1,7 +1,122 @@
 @media (max-width: 768px) {
+    .container-apresentacao {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-apresentacao img{
+        width: 60%;
+    }
+
+    .texto-apresentacao {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .photo-name{
+        margin-bottom: 40px;
+    }
+
+    #projetos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-contact {
+        text-align: justify;
+    }
 
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-apresentacao {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-apresentacao img{
+        width: 60%;
+    }
+
+    .texto-apresentacao {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .photo-name{
+        margin-bottom: 40px;
+    }
+
+    .text-contact {
+        text-align: justify;
+    }
+}
+
+/* Laptops e desktops pequenos */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    /* Estilos para laptops */
+    .container-apresentacao {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10;
+    }
+
+    .container-apresentacao img{
+        width: 100%;
+    }
+
+    .texto-apresentacao {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .text-contact {
+        text-align: justify;
+    }
+}
+
+/* Desktops grandes */
+@media (min-width: 1440px) {
+    .container-apresentacao {
+        width: 70%;
+    }
+
+    .texto-apresentacao {
+        font-size: 20px;
+        --text-align: justify;
+    }
+}
+
+/* Superwide e ultrawide (telas maiores que 1440px) */
+@media (min-width: 1920px) {
+    .container-apresentacao {
+        width: 50%;
+        --margin: 0 auto; /* Centraliza o conteúdo */
+    }
+
+    .linha-horizontal{
+        width: 54%;
+    }
+
+    .texto-apresentacao {
+        font-size: 22px; /* Aumenta o tamanho da fonte */
+        text-align: justify;
+    }
+
+    .container-apresentacao img {
+        width: 100%; /* Ajusta o tamanho das imagens */
+    }
+
+    #projetos {
+        gap: 100px;
+    }
+
+    .text-contact {
+        width: 60%;
+    }
 }
