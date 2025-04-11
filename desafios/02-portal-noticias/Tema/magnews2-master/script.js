@@ -1,5 +1,7 @@
-const apiKey = 'ea80f7385ed04c90ab145c4d89fe4ea0';
-const url = `https://newsapi.org/v2/top-headlines?country=br&apiKey=${apiKey}`;
+/*const apiKey = 'ea80f7385ed04c90ab145c4d89fe4ea0';*/
+/*const url = `https://newsapi.org/v2/top-headlines?country=br&apiKey=${apiKey}`;*/
+
+const url = 'https://newsapi.org/v2/top-headlines?sources=globo&apiKey=ea80f7385ed04c90ab145c4d89fe4ea0';
 
 fetch(url)
   .then(response => response.json())
@@ -8,7 +10,7 @@ fetch(url)
     const noticiasDiv = document.getElementById('noticias');
 
     data.articles.forEach(noticia => {
-    console.log(data);
+      console.log(data);
       const col = document.createElement('div');
       col.className = 'col-md-4 mb-4';
 

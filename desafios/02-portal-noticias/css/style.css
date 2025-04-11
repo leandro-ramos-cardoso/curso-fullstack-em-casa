@@ -1,7 +1,72 @@
-.container {
+* {
+    padding: 0 ;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 260px;
+    background-color: rgb(47, 47, 47);
+    padding: 100px;
+    border-top: 5px solid yellowgreen;
+}
+
+.logoFooter {
+    width: 200px;
+}
+
+.logonav {
+    width: 150px;
+}
+
+.noticia1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(47, 47, 47);;
+}
+
+.text-footer1 {
+    width: 50%;
+}
+
+.btn-primary:hover {
+    background-color: #575c61; /* azul mais escuro */
+    color: white;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+}
+
+.title-footer {
+    color: #fff;
+}
+
+footer p {
+    width: 50%;
+    text-align: center;
 }
